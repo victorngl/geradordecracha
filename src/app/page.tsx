@@ -35,7 +35,7 @@ export default function Home() {
 
     var element = document.getElementById('cracha');
 
-    htmlToImage.toPng(element)
+    htmlToImage.toPng(element as HTMLElement)
       .then(function (dataUrl) {
         download(dataUrl, 'cracha - ' + name + '.png');
       });
