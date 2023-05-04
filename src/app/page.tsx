@@ -56,7 +56,7 @@ export default function Home() {
               <img src={previewPhoto} className='bg-cover'></img>
             </div>
             <div className='text-black font-bold flex justify-center relative top-[430px]'>
-              <p className='text-[25px]'>{name}</p>
+              <p className='text-[32px]'>{name}</p>
             </div>
           </div>
         </div>
