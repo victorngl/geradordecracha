@@ -5,9 +5,6 @@ import { useState } from 'react'
 import * as htmlToImage from 'html-to-image';
 import CrachaFuncionario from '@/components/CrachaFuncionario';
 
-const inter = Inter({ subsets: ['latin'] })
-
-
 export default function Funcionario() {
   const [name, setName] = useState<string>('Insira um nome')
   const [previewPhoto, setPreviewPhoto] = useState<string>('')

@@ -1,11 +1,8 @@
 'use client'
 
-import { Inter } from 'next/font/google'
 import { useState } from 'react'
 import * as htmlToImage from 'html-to-image';
 import CrachaAluno from '@/components/CrachaAluno';
-
-const inter = Inter({ subsets: ['latin'] })
 
 
 export default function Aluno() {
