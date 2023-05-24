@@ -8,8 +8,8 @@ function CrachaFuncionario({ previewPhoto, name }) {
             </div>
 
 
-            <div className='text-black font-bold flex justify-center relative top-[430px]'>
-                <p className='text-[32px]'>{name}</p>
+            <div className='text-black font-bold relative top-[430px] mx-10 max-w-[85%]'>
+                <div className='text-[32px] break-words'>{name}</div>
             </div>
         </div>
     )
